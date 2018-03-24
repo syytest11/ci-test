@@ -14,7 +14,7 @@ export default {
   name: 'App',
   methods: {
     handleClick (tab, event) {
-      this.$router.push({ name: tab.name, })
+      this.$router.push({ name: tab.name })
     }
   }
 }

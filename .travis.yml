@@ -18,3 +18,9 @@ cache:
 script:
   - npm run lint
   - npm run test
+
+email:
+  recipients:
+    - syytest11@163.com
+  on_success: always
+  on_failure: always
